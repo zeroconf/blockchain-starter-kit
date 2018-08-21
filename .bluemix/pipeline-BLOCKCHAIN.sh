@@ -4,7 +4,7 @@ set -ex
 
 source .bluemix/pipeline-COMMON.sh
 
-export BLOCKCHAIN_SERVICE_NAME=blockbud
+export BLOCKCHAIN_SERVICE_NAME=bcbud-Cloudant
 export BLOCKCHAIN_SERVICE_PLAN=ibm-blockchain-plan-v1-ga1-starter-prod
 export BLOCKCHAIN_SERVICE_KEY=bcbud-Service-credentials-1
 export BLOCKCHAIN_NETWORK_CARD=admin@bcbud
