@@ -4,9 +4,9 @@ set -ex
 
 source .bluemix/pipeline-COMMON.sh
 
-export CLOUDANT_SERVICE_NAME=cloudantNoSQLDB
+export CLOUDANT_SERVICE_NAME=bcbud-Cloudant
 export CLOUDANT_SERVICE_PLAN=Lite
-export CLOUDANT_SERVICE_KEY=Credentials-1
+export CLOUDANT_SERVICE_KEY=SupplyNetwork1
 export CLOUDANT_DATABASE=wallet
 
 function provision_cloudant {

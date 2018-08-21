@@ -1,7 +1,7 @@
 version: '2'
 template:
-  name: "Blockchain Starter Kit"
-  description: "Deploy the IBM Blockchain Starter Kit to IBM Cloud."
+  name: 'Blockchain Starter Kit'
+  description: 'Deploy the IBM Blockchain Starter Kit to IBM Cloud.'
   required:
     - repo
     - build
@@ -14,7 +14,7 @@ services:
     service_id: githubpublic
     parameters:
       repo_name: '{{toolchain.name}}'
-      repo_url: 'https://github.com/sstone1/blockchain-starter-kit'
+      repo_url: 'https://github.com/zeroconf/blockchain-starter-kit'
       type: clone
       has_issues: true
       enable_traceability: true
